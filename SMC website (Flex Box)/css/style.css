@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 0.75rem 0;
+}
+
+/* Utility Classes */
+.primary_text {
+    color: #93cb52;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.p_all_2 {
+    padding: 1.5rem;
+}
+
+.primary_bg {
+    color: #fff;
+    background-color: #93cb52;
+    padding: 0.5rem 2rem;
+    /* margin: 0 0.25rem; */
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn {
+    border-radius: 0.4rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    display: inline-block;
+}
+
+.py_1 {padding: 1.5rem 0;}
+.py_2 {padding: 2.0rem 0;}
+.py_3 {padding: 3.0rem 0;}
+
+.p_1 {padding: 1.5rem;}
+.p_2 {padding: 2.0rem;}
+.p_3 {padding: 3.0rem;}
+
+
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.light_bg {
+    color: #333;
+    background: #f4f4f4;
+}
+
+.dark_bg {
+    color: #f4f4f4;
+    background: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.l_heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1rem;
+}
+
+.m_heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1rem;
+}
+
+
+#navbar {
+    display: flex;
+    background: #333;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+    /* opacity: 0.9 */
+}
+
+#navbar img {
+    height: 4rem;
+    background-color: #93cb52;
+    border-radius: 50%;
+    padding-bottom: 0;
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+
+/* Showcase Styling */
+#showcase {
+    color: #fff;
+    background: #333 url("/imgs/showcase.jpg") no-repeat center center/cover;
+    height: 100vh;
+
+}
+
+#showcase .showcase_info {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    /* Overlay*/
+    position: absolute;
+    top: 65px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4rem);
+
+}
+
+#showcase .showcase_info a:hover {
+    background-color: #569c05;
+}
+
+
+/* Section What Styling*/
+.items {
+    display: flex;
+    padding: 1rem;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+ .item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+/* Who we are Section Styling*/
+#who {
+    display: flex;
+}
+
+.who_img {
+    flex: 1;
+    background: url("../imgs/people.jpg") no-repeat center/cover;
+}
+
+.who_content {
+    flex: 1;
+    background: #333;
+    line-height: 1.1rem;
+}
+
+.who_content p {
+line-height: 1.5rem;
+
+}
+
+.list {
+list-style: none;
+}
+
+.list li {
+padding: 0.5rem 0;
+border-bottom: #444 dotted 1px;
+
+}
+
+
+/* Client's section*/
+
+#clients_logos {
+    margin-bottom: 1.5rem;
+}
+
+.clients_h2 {
+text-align: center;
+}
+
+
+.clients_imgs {
+    display: flex;
+}
+
+.client_img {
+    flex: 1;
+}
+
+.client_img img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+
+/* Styling Form elements */
+
+#contact_Us {
+    display: flex;
+    /* flex:1; */
+}
+
+.contact_info {
+flex : 1;
+}
+
+.map {
+    flex : 1;
+}
+
+label {
+    display: block;
+}
+
+.form_item {
+    padding-bottom: 0.5rem;
+    line-height: 1.5rem;
+    max-width: 100%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.btn:hover {
+background: #5aa108;
+    border-radius: 0.4rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    display: inline-block;
+}
+
+
+
+/* Main-footer Styling */

@@ -1,0 +1,51 @@
+/* Align icon to left */
+.item {
+    display: flex;
+    text-align: left;
+}
+
+.items {
+    display: block;
+    padding: 1rem;
+}
+
+/* Position icons */
+ i {
+margin-right: 1.3rem;
+align-self: center;
+margin-bottom: 0;
+}
+
+/* Smart Phones */
+@media(max-width:500px) {
+#navbar {
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#navbar ul {
+    padding: 0.5rem;
+}
+
+#showcase .showcase_info {
+    top: 110px;
+}
+
+#who {
+    display: none;
+}
+
+#clients_logos .clients_imgs img {
+width: 80%;    
+}
+
+
+
+
+
+}
